@@ -125,17 +125,8 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-## 8. Deploying to Streamlit Community Cloud
 
-1. Push this folder to a public GitHub repository (all 4 files at the repo root).
-2. Go to [share.streamlit.io](https://share.streamlit.io), sign in, click
-   **"New app"**.
-3. Point it at your repo, branch `main`, main file path `app.py`.
-4. Deploy — the app installs `requirements.txt` automatically and no
-   secrets or API keys are required, since everything runs on the
-   in-app simulator.
-
-## 9. File-by-file
+## 8. File-by-file
 
 | File | Responsibility |
 |---|---|
